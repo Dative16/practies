@@ -68,10 +68,16 @@ for value in square_generator(numbers):
 # -----------------------------
 
 import math
+import json
 import random
+# from main import n, Jesca
+from math import sin
+
+# from practies.main import n
 
 print("Square root of 16:", math.sqrt(16))
 print("Random number:", random.randint(1, 10))
+print("Sine of 90 degrees:", sin(math.radians(90)))
 
 # -----------------------------
 # 5. FILE HANDLING
