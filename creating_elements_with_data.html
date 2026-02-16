@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Stdent List</h2>
+    <ul id="studentList"></ul>
+    <ul id="fruits"></ul>
+    <script>
+    const students = ['Juma', 'Aisha', 'Khalid', 'Fatima'];
+   const studentList = document.getElementById('studentList');
+
+    students.forEach(student => {
+         const li = document.createElement('li');
+         li.textContent = student;
+         studentList.appendChild(li);
+    });
+    students.forEach(function(student) {
+        const li = document.createElement('li');
+        li.textContent = student;
+        studentList.appendChild(li);
+    });
+    </script>
+</body>
+</html>
